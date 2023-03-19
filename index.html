@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+
+    <section class="p-20">
+        <div class="bg-blue-100 p-5 grid grid-cols-2 items-center">
+            <div class="col-span-1">
+                <h1 class="font-bold text-3xl ">Interactive</h1>
+                <p>Geometry Genius</p>
+            </div>
+            <div class="col-span-1 text-right">
+                <a class="inline-block px-6 py-2 rounded text-white bg-blue-600" href="blog.html">Blog</a>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-4 gap-5 py-10">
+            <div class="col-span-3 grid gap-5 grid-cols-3">
+                <div class="col-span-1 rounded-lg border border-solid border-gray-200 py-10 px-6 text-center">
+                    <img class="m-auto mb-3" src="./images/triangle.png" alt="img">
+                    <h2 class="font-medium text-2xl capitalize">triangle</h2>
+                    <span class="block mt-2 mb-10">Area (A) = 0.5 x b x h</span>
+                    <div class="grid grid-cols-2 gap-4   justify-center">
+                        <div class="col-span-1 grid grid-cols-8 items-center">
+                            <input   class="col-span-6 px-3 py-2 bg-slate-100 border border-solid border-gray-200" type="text" placeholder="b"> <span class="col-span-2">cm</span>
+                        </div>
+                        <div class="col-span-1 grid grid-cols-8 items-center  ">
+                            <input   class="col-span-6 px-3 py-2 bg-slate-100 border border-solid border-gray-200" type="text" placeholder="h"> <span class="col-span-2">cm</span>
+                        </div>
+                        
+                    </div>
+                    <button class="w-full mt-10 block px-6 py-2 rounded text-white bg-blue-600">Calculate</button>
+                </div>
+                <div class="col-span-1 rounded-lg border border-solid border-gray-200 py-10 px-6 text-center">
+                    <img class="m-auto mb-3" src="./images/rectangle.png" alt="img">
+                    <h2 class="font-medium text-2xl capitalize">Rectangle</h2>
+                    <span class="block mt-2 mb-10">Area (A) = w x l</span>
+                    <div class="grid grid-cols-2 gap-4   justify-center">
+                        <div class="col-span-1 grid grid-cols-8 items-center">
+                            <input   class="col-span-6 px-3 py-2 bg-slate-100 border border-solid border-gray-200" type="text" placeholder="w"> <span class="col-span-2">cm</span>
+                        </div>
+                        <div class="col-span-1 grid grid-cols-8 items-center  ">
+                            <input   class="col-span-6 px-3 py-2 bg-slate-100 border border-solid border-gray-200" type="text" placeholder="l"> <span class="col-span-2">cm</span>
+                        </div>
+                        
+                    </div>
+                    <button class="w-full mt-10 block px-6 py-2 rounded text-white bg-blue-600">Calculate</button>
+                </div>
+                <div class="col-span-1 rounded-lg border border-solid border-gray-200 py-10 px-6 text-center">
+                    <img class="m-auto mb-3" src="./images/parallelogram.png" alt="img">
+                    <h2 class="font-medium text-2xl capitalize">triangle</h2>
+                    <span class="block mt-2  ">Area (A) =  b x h</span>
+                    <span class="block mt-2 mb-10">b=10cm, h=12cm</span>
+                    <button class="w-full mt-10 block px-6 py-2 rounded text-white bg-blue-600">Calculate</button>
+                    
+                </div>
+            </div>
+
+
+            <div class="col-span-1  rounded-lg border border-solid border-gray-200 py-10 px-6 text-center">
+                <h2 class="font-medium text-2xl capitalize">Area Calculation</h2>
+
+                <div class="flex justify-between items-center mt-5">
+                    <span>1. Triangle</span> <span>12cm <sup>2</sup></span>  
+                    <button class="      px-4 py-2 rounded text-white bg-blue-600">Convert to m<sup>2</sup></button>
+                </div>  
+
+            </div>
+        </div>
+    </section>
+
+
+    
+</body>
+</html>
